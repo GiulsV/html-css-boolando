@@ -3,16 +3,23 @@ body{
     margin-left: 10%;
     margin-right: 10%;
 }
-/* section container 
-.container{
+
+/* .container{ 
     width: 85%;
     height: 90%;
     margin: auto;
     padding-top: 5px;
     padding-bottom: 8px;
     background-color: aquamarine;
+   
     
-}*/
+ } */
+.row{
+    position: relative;
+    width:fit-content;
+    background-color: yellow;
+    margin-left: 10%;
+}
 /* div row prende tutte le immagini all'interno */
 .row img{
     height: 500px;
@@ -21,6 +28,7 @@ body{
 /* figure primariga posiziona immagini sulla stessa riga */
 .primariga{
     display: inline-block;
+    margin: 3px;
 }
 /* hover immagini */
 #levistee:hover {
@@ -38,8 +46,8 @@ body{
     width: 40px;
     padding: 3px;
     position: absolute;
-    bottom: 390px;
-    left: 175px;
+    bottom: 50px;
+    left: 3px;
 }
 
 .primariga .sostenibilita{
@@ -47,15 +55,40 @@ body{
     width: 90px;
     padding: 3px;
     position: absolute;
-    bottom: 390px;
-    left: 225px;
+    bottom: 50px;
+    left: 53px;
 }
 .primariga .trenta-sale{
     background-color: red;
     width: 40px;
     padding: 3px;
     position: absolute;
-    bottom: 390px;
-    left: 605px;
-    /* z-index: 20px; */
+    bottom: 50px;
+    left: 360px;
+    
+}
+.primariga .trenta-sale-left{
+    background-color: red;
+    width: 40px;
+    padding: 3px;
+    position: absolute;
+    bottom: 50px;
+    left: 718px;  
+}
+#levismaglietta:hover {
+    content: url("../img/4b.webp");
+}
+#vestito:hover{
+    content: url("../img/5b.webp");
+}
+#maglione:hover{
+    content: url("../img/6b.webp");
+}
+.sostenibilita-left{
+    background-color: green;
+    width: 90px;
+    padding: 3px;
+    position: absolute;
+    bottom: 50px;
+    left: 718px;  
 }
