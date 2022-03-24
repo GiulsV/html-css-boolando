@@ -1,0 +1,25 @@
+.container{
+    width: 85%;
+    height: 90%;
+    margin: auto;
+    padding-top: 5px;
+    padding-bottom: 8px;
+    background-color: aquamarine;
+    
+}
+.row img{
+    height: 500px;
+    width: auto;
+}
+.primariga{
+    display: inline-block;
+}
+#levistee:hover {
+    content: url("../img/1b.webp");
+}
+#guesstop:hover{
+    content: url("../img/2b.webp");
+}
+#jumpsuit:hover{
+    content: url("../img/3b.webp");
+}
