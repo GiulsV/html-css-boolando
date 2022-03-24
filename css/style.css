@@ -1,3 +1,9 @@
+body{
+    background-color: blueviolet;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+/* section container 
 .container{
     width: 85%;
     height: 90%;
@@ -6,14 +12,17 @@
     padding-bottom: 8px;
     background-color: aquamarine;
     
-}
+}*/
+/* div row prende tutte le immagini all'interno */
 .row img{
     height: 500px;
     width: auto;
 }
+/* figure primariga posiziona immagini sulla stessa riga */
 .primariga{
     display: inline-block;
 }
+/* hover immagini */
 #levistee:hover {
     content: url("../img/1b.webp");
 }
@@ -22,4 +31,31 @@
 }
 #jumpsuit:hover{
     content: url("../img/3b.webp");
+}
+/* label discount */
+.primariga .cinquanta-sale{
+    background-color: red;
+    width: 40px;
+    padding: 3px;
+    position: absolute;
+    bottom: 390px;
+    left: 175px;
+}
+
+.primariga .sostenibilita{
+    background-color: green;
+    width: 90px;
+    padding: 3px;
+    position: absolute;
+    bottom: 390px;
+    left: 225px;
+}
+.primariga .trenta-sale{
+    background-color: red;
+    width: 40px;
+    padding: 3px;
+    position: absolute;
+    bottom: 390px;
+    left: 605px;
+    /* z-index: 20px; */
 }
